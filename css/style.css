@@ -34,7 +34,7 @@
 }
 
 .link-design:hover,
-.link-design:active{
+.link-design:focus{
     color:#404bbf;
 }
 
@@ -51,7 +51,7 @@
 }
 
 .contact:hover,
-.contact:active{
+.contact:focus{
     color: #404bbf;
 }
 
@@ -86,7 +86,7 @@ body{
 }
 
 .button:hover,
-.button:active{
+.button:focus{
     background-color:  #404BBF;
     cursor: pointer;
 }

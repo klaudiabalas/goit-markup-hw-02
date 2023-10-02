@@ -1,0 +1,51 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color:#434455;
+}
+
+a{
+    font-size: 12px;
+    text-decoration: underline;
+    letter-spacing: 4%;
+    line-height: 1.5;
+}
+h1{
+    color: #434455;
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 1.4;
+    letter-spacing: 2%;
+}
+
+h2{
+    font-size: 36px;
+    letter-spacing: 2%;
+}
+
+h3{
+    font-size: 20px;
+    letter-spacing: 2%;
+}
+
+p{
+    font-size: 12px;
+    letter-spacing: 4%;
+    line-height: 1.5;
+}
+
+.filter-button{
+    background-color: var(--CLOUD, #F4F4FD);
+    font-family: inherit;
+    cursor: pointer;
+    color: var(--IRIS, #4D5AE5);
+    text-align: center;
+    font-weight: 500;
+}
+
+.filter-button:hover,
+.filter-button:focus{
+    background-color: var(--OCEAN, #404BBF);
+    color: var(--WHITE, #FFF);
+    text-align: center;
+    font-weight: 500;
+}
